@@ -33,7 +33,7 @@ body {
 
 }
 ol, ul {
-  display:flex;
+  border-display:flex;
 }
 blockquote, q {
 	quotes: none;
