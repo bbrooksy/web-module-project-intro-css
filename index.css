@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: flex;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+  display:flex;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: auto;
+  border-display:flex;
+}
+header {
+  display:inline-block;
+  margin-right:50px;
+  margin-left:50px;
+}
+div {
+  display:flex;
+  text-align:center;
+  color:white;
+}
+ 
+.buttons {
+  font-size:2em;
+  justify-content:center;
+}
+.orange-button {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 80%;
+  height:100px;
+  margin-top:50px;
+  margin-left:50px;
+  margin-right:50px;
+  background-color: #FF764E;
+  border: 10px;
+  border-radius:30px;
+} 
+.blue-button {
+  display:flex;
+  justify-content:center;
+  width: 80%;
+  height:100px;
+  margin-top:50px;
+  margin-left:50px;
+  margin-right:50px;
+  border: 10px;
+  border-radius:30px;
+  align-items:center;
+  background-color:#5ED3EB
+}
+.yellow-button {
+  display:flex;
+  justify-content:center;
+  width:80%;
+  height:100px;
+  margin-top:50px;
+  margin-left:50px;
+  margin-right:50px;
+  border: 10px;
+  border-radius:30px;
+  align-items:center;
+  background-color:#FFCD69;
+}
+
+h1 {
+  margin:auto;
+  margin-left:50px;
+  border:100px;
+  padding-left:80px;
+  padding-top:150px;
+  font-size:60px;
+    font-family: 'Chelsea Market', cursive;
+    display:flex;
+
+}
+
+.main {
+    Height:255px;
+    width:0 auto;
+    display:flex;
+    margin-left:100px;
+    margin-top:100px;
+    border-radius: 60%;
+  float: left;
+  
+    }
+
+
+p {
+    font-family: 'Chelsea Market', cursive;
+    text-align:center;
+}
+
+h2 {
+    font-family: 'Chelsea Market', cursive;
+  text-align:center;
+  display:inline-block;
+    font-size: 25px;
+  margin: 0 auto;
+    padding:25px;
+    align-text:center;
+    
+}
+
+.fireimg {
+    height:250px;
+  padding:60px;
+  padding-bottom:20px;
+  border:20px;
+  margin:0 auto;
+   display:flex;
+    
+
+}
+.camperimg {
+    height:250px;
+  padding-top:30px;
+    display:flex;
+   margin:0 auto;
+
+}
+
+.firstparagraph {
+  width:100%;
+    background-color:#DDB9A3;
+    color:white;
+    font-size:20px;
+  padding:15px 0;
+  justify-content:center;
+
+
+}
+
+
+.footerimg{
+        width: 300px;
+        height: 180px;        
+        background-size: cover;
+        margin:0 auto;
+}
+.finalpara {
+  padding-bottom:60px;
+  
+  
+}
+footer {
+  background-color: aqua;
+  justify-content:center;
+  
+}
+  
+    
+
+
+    
+
